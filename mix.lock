@@ -1,0 +1,3 @@
+%{
+  "message_db": {:git, "https://github.com/elixir-verity/ex-message-db.git", "670942d146c8a7e59c104032862a5b656b6e8a9d", []},
+}
