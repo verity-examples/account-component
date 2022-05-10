@@ -22,7 +22,8 @@ defmodule AccountComponent.MixProject do
   # Run "mix help deps" to learn about dependencies.
   def deps do
     [
-      {:message_db, "~> 0.0", github: "elixir-verity/ex-message-db"}
+      {:message_db, "~> 0.0", github: "elixir-verity/ex-message-db"},
+      {:postgrex, ">= 0.0.0"}
     ]
   end
 end
