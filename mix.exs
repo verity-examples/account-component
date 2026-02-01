@@ -23,6 +23,8 @@ defmodule AccountComponent.MixProject do
   def deps do
     [
       {:message_db, "~> 0.0", github: "elixir-verity/ex-message-db"},
+      {:vrt_messaging, path: "../vrt-messaging"},
+      {:vrt_identifier_uuid, path: "../vrt-identifier-uuid"},
       {:postgrex, ">= 0.0.0"}
     ]
   end
